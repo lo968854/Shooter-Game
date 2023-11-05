@@ -1,0 +1,528 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1699223208230432, "dur": 1833144, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223208230634, "dur": 14248, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223208244884, "dur": 94873, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223208339759, "dur": 1519981, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223209859743, "dur": 198450, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223210058194, "dur": 5381, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223210064180, "dur": 12, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1699223209434919, "dur": 404709, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699223209435848, "dur": 46241, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699223209824169, "dur": 4821, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699223209829010, "dur": 10612, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699223209829776, "dur": 9276, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699223209844290, "dur": 1152, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1699223209843541, "dur": 1920, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223210064292, "dur": 217, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1699223209925281, "dur":1159, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223209926445, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1699223209926498, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1699223209926510, "dur":549, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1699223209927084, "dur":472, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223209927556, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041091, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041243, "dur":312, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041555, "dur":34, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041589, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041626, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041630, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041643, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041645, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041664, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041665, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041671, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041673, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041679, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041681, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041685, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041687, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041696, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041697, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041701, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041702, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041707, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041708, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041713, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041714, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041719, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041720, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041724, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041725, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041730, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041732, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041749, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041750, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041756, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041757, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041763, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041764, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041769, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041772, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041778, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041780, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041790, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041809, "dur":23, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210041841, "dur":1602, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1699223209929650, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209929651, "dur":2880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209932531, "dur":868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1699223209933402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209945145, "dur":5029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1699223209950284, "dur":2698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209952985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209954035, "dur":9300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209963375, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209964545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209964556, "dur":8124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209972729, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209973134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209973162, "dur":17518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209990830, "dur":1374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223209992207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223209992214, "dur":13721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223210005976, "dur":2563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223210008543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223210008549, "dur":13579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223210022178, "dur":1569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223210023749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699223210023755, "dur":7104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1699223210030909, "dur":10197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209932012, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209932023, "dur":1865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1699223209933891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209944823, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1699223209946858, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter.exe" }}
+,{ "pid":12345, "tid":2, "ts":1699223209947594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209947600, "dur":4057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter.exe" }}
+,{ "pid":12345, "tid":2, "ts":1699223209951701, "dur":2414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223209954118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209954125, "dur":13128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223209967339, "dur":1196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223209968538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209968555, "dur":12429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223209981022, "dur":1323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223209982350, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223209982366, "dur":21124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223210003543, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223210004111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223210004118, "dur":15082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223210019316, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223210020728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699223210020745, "dur":9715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699223210030529, "dur":10562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699223209928677, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699223209928677, "dur":4272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699223209932950, "dur":3770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699223209936722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699223209940245, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699223209942024, "dur":86780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699223210028806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699223210028810, "dur":12146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1699223210040990, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1699223210040992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209929402, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209929402, "dur":3443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209932846, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1699223209933599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209943593, "dur":6795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1699223209950445, "dur":2052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223209952501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209953269, "dur":11703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223209965041, "dur":1428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223209966474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209966483, "dur":11028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223209977583, "dur":919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223209978505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223209978511, "dur":23809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223210002415, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223210003160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223210003167, "dur":14745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223210017980, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223210018203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699223210018213, "dur":14127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699223210032464, "dur":8680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209927548, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209927722, "dur":4293, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209932022, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1699223209932028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209933340, "dur":387, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1699223209933731, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1699223209933803, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209936876, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1699223209940159, "dur":16908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223209957070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209957262, "dur":8386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223209965763, "dur":1311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223209967079, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209967153, "dur":11183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223209978452, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223209980083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223209980089, "dur":22667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223210002840, "dur":756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223210003599, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223210003611, "dur":18304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223210021978, "dur":2733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223210024713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699223210024719, "dur":10528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699223210035291, "dur":5930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209930406, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209930407, "dur":1620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209932028, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1699223209932233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209945135, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1699223209948308, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1699223209948653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209949513, "dur":11531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1699223209961112, "dur":1155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223209962276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209962285, "dur":10970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223209973332, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223209973906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209973922, "dur":17693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223209991708, "dur":1233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223209992944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223209992952, "dur":16582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223210009580, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223210010271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223210010278, "dur":12958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223210023321, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223210023682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699223210023691, "dur":8126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1699223210031917, "dur":9133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209930643, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209930644, "dur":1591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209932236, "dur":1113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1699223209933351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209945960, "dur":10967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1699223209956978, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223209957834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209957841, "dur":14002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223209971874, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223209972436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209972441, "dur":18722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223209991214, "dur":1486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223209992723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223209992730, "dur":17040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223210009864, "dur":1556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223210011491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223210011501, "dur":14191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223210025758, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223210026143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699223210026149, "dur":7983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1699223210034202, "dur":6979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209927839, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209927839, "dur":4500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209932339, "dur":1335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1699223209933676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209947153, "dur":8252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1699223209955998, "dur":674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223209956676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209956683, "dur":14504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223209971249, "dur":1800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223209973052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209973059, "dur":20153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223209993255, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223209994058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223209994065, "dur":17048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223210011164, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223210011391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223210011398, "dur":15212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1699223210026671, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1699223210027283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699223210027289, "dur":3957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1699223210031349, "dur":9901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223209927977, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223209927977, "dur":4267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223209932244, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1699223209932439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223209944986, "dur":7399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1699223209952451, "dur":2629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223209955083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223209955090, "dur":22362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223209977509, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223209978401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223209978417, "dur":20922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223209999389, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223210000249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223210000259, "dur":14001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223210014344, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223210014618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223210014623, "dur":12827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699223210027535, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1699223210027783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699223210027791, "dur":6499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1699223210034335, "dur":6759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209928060, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209928061, "dur":4166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209932228, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1699223209933137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209945073, "dur":8000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1699223209953431, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223209955511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209955517, "dur":11804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223209967365, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223209967859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209967866, "dur":11511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223209979440, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223209980035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223209980042, "dur":20223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223210000302, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223210001250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223210001257, "dur":12207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223210013573, "dur":1238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223210014814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699223210014821, "dur":17365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699223210032294, "dur":8907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209929046, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209929046, "dur":3148, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209932194, "dur":653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699223209932849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209945088, "dur":7929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699223209953103, "dur":2002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223209955108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209955115, "dur":11786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223209966953, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223209967589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209967595, "dur":11821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223209979479, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223209980123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223209980129, "dur":20558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223210000737, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223210001357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223210001363, "dur":12650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223210014190, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223210014432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223210014438, "dur":11825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699223210026314, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1699223210026365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223210026422, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1699223210027576, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1699223210027655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223210027660, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1699223210030051, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1699223210030161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699223210030166, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1699223210034104, "dur":7128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209929638, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209929639, "dur":2534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209932173, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1699223209932613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209945558, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1699223209950166, "dur":5327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223209955497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209955504, "dur":12404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223209967943, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223209968641, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209968647, "dur":12697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223209981386, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223209982081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223209982088, "dur":21056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223210003213, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223210004066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223210004073, "dur":12513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223210016650, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223210017299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699223210017312, "dur":17954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1699223210035311, "dur":5840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209929929, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209929930, "dur":2451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209932381, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1699223209932491, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209942685, "dur":6093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1699223209948824, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223209949749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209950301, "dur":18976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223209969454, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223209970342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209970348, "dur":12027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223209982465, "dur":1501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223209983969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223209983974, "dur":19365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223210003406, "dur":927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223210004336, "dur":15, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223210004403, "dur":16507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223210020987, "dur":3514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223210024504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699223210024510, "dur":10400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699223210034963, "dur":6112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209930162, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209930163, "dur":2030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209932193, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1699223209932370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209947389, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1699223209949736, "dur":1972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223209951712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209953334, "dur":4819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223209958212, "dur":1582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223209959797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209959801, "dur":14902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223209974742, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223209975245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223209975252, "dur":20208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223209995506, "dur":4676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223210000187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223210000194, "dur":13832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223210014204, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223210014456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223210014463, "dur":14344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699223210028864, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1699223210029028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699223210029035, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1699223210032409, "dur":8693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209930687, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209930688, "dur":1395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209932083, "dur":2018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1699223209934104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209944842, "dur":3847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1699223209948739, "dur":816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209949558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209951163, "dur":4729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209955960, "dur":2147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209958110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209958117, "dur":15713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209973884, "dur":894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209974781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209974788, "dur":18362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209993238, "dur":1112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223209994353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223209994371, "dur":15111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223210009523, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223210010072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223210010080, "dur":12879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223210023006, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223210023257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699223210023264, "dur":8753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699223210032070, "dur":8977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209930934, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209930935, "dur":1412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209932348, "dur":889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1699223209933239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209946938, "dur":5021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1699223209952022, "dur":1873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209953898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209953905, "dur":10693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209964670, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209965306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209965313, "dur":9902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209975268, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209975991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209975997, "dur":21251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209997291, "dur":505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223209997812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223209997819, "dur":13173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223210011037, "dur":2924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223210013964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223210013970, "dur":12925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1699223210026946, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1699223210027118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223210027123, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":16, "ts":1699223210028673, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1699223210028723, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699223210028728, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1699223210032056, "dur":8996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223209932672, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223209932672, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1699223209932794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223209945124, "dur":5593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1699223209950751, "dur":1792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223209952548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223209953363, "dur":10778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223209964212, "dur":946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223209965169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223209965183, "dur":11285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223209976517, "dur":733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223209977253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223209977260, "dur":21723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223209999098, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223210000101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223210000108, "dur":12824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223210013130, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223210013813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223210013822, "dur":12257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223210026125, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223210026418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1699223210026424, "dur":8677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":17, "ts":1699223210035189, "dur":5916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209931130, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209931130, "dur":955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209932086, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1699223209932479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209944813, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1699223209948858, "dur":4022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209952912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209953426, "dur":9065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209962533, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209963110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209963117, "dur":7490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209970649, "dur":1637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209972331, "dur":21, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209972360, "dur":18054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209990492, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223209991132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223209991140, "dur":14165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223210005353, "dur":1994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223210007350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223210007387, "dur":14625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223210022066, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223210022241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223210022294, "dur":7144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":18, "ts":1699223210029492, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":18, "ts":1699223210029537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1699223210029541, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":18, "ts":1699223210033829, "dur":7360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209931653, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209931653, "dur":434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209932088, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1699223209933091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209942846, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1699223209946810, "dur":7184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":19, "ts":1699223209953996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209954001, "dur":4309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":19, "ts":1699223209958353, "dur":1118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223209959474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209959480, "dur":13309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223209972830, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223209973855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209973861, "dur":20192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223209994096, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223209994768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223209994775, "dur":15377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223210010330, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223210010656, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223210010661, "dur":12338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223210023056, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223210023718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1699223210023725, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1699223210032930, "dur":8255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209932709, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209932710, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":20, "ts":1699223209932839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209943325, "dur":6593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":20, "ts":1699223209949972, "dur":2132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209952108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209953398, "dur":9172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209962668, "dur":3424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209966121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209966130, "dur":10448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209976612, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209977461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209977469, "dur":20554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209998071, "dur":1286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223209999360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223209999367, "dur":12481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223210011893, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223210012211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223210012217, "dur":12480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223210024743, "dur":4006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223210028752, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1699223210028763, "dur":8953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/noels/OneDrive/Documents/University Work/Shooter/Shooter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":20, "ts":1699223210037751, "dur":3391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699223210044751, "dur":1301, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1699223210064595, "dur": 609, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1699223210064163, "dur": 1065, "ph": "X", "name": "Write chrome-trace events", "args": {} },
